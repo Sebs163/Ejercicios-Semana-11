@@ -1,0 +1,26 @@
+Proceso Ejercicio_3
+	
+	Definir nota Como Entero;
+	
+	Escribir "Ingresar calificativo";
+	Leer nota;
+	
+	si (nota<=10) Entonces
+		Mostrar "En inicio"
+	SiNo
+		si (nota<=14) Entonces
+			Mostrar "En proceso"
+		SiNo
+			si (nota<=17) Entonces
+				Mostrar "Logro esperado"
+			SiNo
+				si (nota<=20) Entonces
+					Mostrar "Logro Destacado"
+				SiNo
+					Mostrar "La nota no existe"
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+  
+FinProceso
