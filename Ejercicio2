@@ -2,24 +2,24 @@ Proceso Ejercicio_2
 	
 	Definir numero Como Entero;
 	
-	Escribir "Ingresa el n�mero";
+	Escribir "Ingresa el número";
 	Leer numero;
 	
 	si (numero>=100) Entonces;
 		si (numero<=999) Entonces;
-			Mostrar "Son n�meros de 3 cifras";
+			Mostrar "Son números de 3 cifras";
 		FinSi
 	FinSi
 	
 	si (numero>=0) Entonces
 		si (numero<=9) Entonces
-			Mostrar "Es un n�mero de 1 cifra";
+			Mostrar "Es un número de 1 cifra";
 		FinSi
 	FinSi
 	
 	si (numero>=10) Entonces
 		si (numero<=99) Entonces
-			Mostrar "Es un n�mero de 2 cifras"
+			Mostrar "Es un número de 2 cifras"
 		SiNo
 			si (numero>=1000) Entonces
 				Mostrar "Exceso de cifras"
