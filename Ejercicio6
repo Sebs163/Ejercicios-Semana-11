@@ -1,0 +1,33 @@
+Proceso Ejercicio_6
+	
+	Definir DNI, dia Como Entero;
+	Definir especialidad_de_atencion, nombres, apellidos, direccion Como Caracter;
+	Definir hora, edad Como Caracter;
+	
+	Escribir "Ingrese su DNI: ";
+	Leer DNI;
+	
+	si (DNI=75092471) Entonces
+		Mostrar "El paciente est� registrado";
+		Mostrar "Porfavor ingrese los siguientes datos para su cita";
+		Escribir "Especialidad de atenci�n: ";
+		Leer especialidad_de_atencion;
+		Escribir "D�a solicitado: ";
+		Leer dia;
+		Escribir "Hora: ";
+		Leer hora;
+	SiNo
+		Mostrar "DNI no registrado, porfavor cree su historial cl�nico";
+		Mostrar "Se le pediran los siguientes datos para poder registrarse";
+		Escribir "Nombres: ";
+		Leer nombres;
+		Escribir "Apellidos: ";
+		Leer apellidos;
+		Escribir "Direcci�n: ";
+		Leer direccion;
+		Escribir "Edad: ";
+		Leer edad;
+		Mostrar "Datos registrados correctamente.";
+	FinSi
+	
+FinProceso
