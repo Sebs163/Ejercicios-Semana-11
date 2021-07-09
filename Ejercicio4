@@ -1,0 +1,40 @@
+Proceso Ejercicio_4
+	
+	Dimension login(2), options(1);
+	
+	login(1) = "";
+	options(1) = 0;
+	
+	Escribir "Bienvenido, está accediendo a su biblioteca virtual";
+	Escribir "Porfavor ingrese sus datos de registro: ";
+	Escribir "Usuario: ";
+	Leer login(1);
+	Escribir "Contraseña: ";
+	Leer login(2);
+	Escribir "";
+	
+	si (login(1) == "n00288631") Entonces
+		si (login(2) == "sebs17") Entonces
+			Mostrar "Bienvenido; escoja qué es lo que quiere hacer: ";
+			Mostrar "";
+			Escribir "(1) Solicitar un Libro";
+			Escribir "(2) Mostrar catálogo de libros";
+			Escribir "(3) Salir del sistema";
+			Leer options(1);
+			
+			si (options(1)==1) Entonces
+				Mostrar "Usted está pos solcitar un libro";
+			FinSi
+			si (options(1)==2) Entonces
+				Mostrar "Usted está solicitando el catálogo de libros";
+			FinSi
+			si (options(1)==3) Entonces
+				Mostrar "Usted está saliendo del sistema";
+			FinSi
+		SiNo
+			Mostrar "Su contraseña es incorrecta.";
+		FinSi
+	SiNo
+		Mostrar "Su usuario no existe en nuesta base de datos.";
+	FinSi
+FinProceso
